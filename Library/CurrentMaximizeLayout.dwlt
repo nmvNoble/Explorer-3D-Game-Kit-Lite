@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 43446
+  controlID: 44875
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 43447
+  controlID: 44843
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 43448
+  controlID: 44844
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -315,6 +315,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   brushSettingsAsset: {fileID: 11400000, guid: 52963a5e57b6db1479fe05193944e639, type: 2}
 --- !u!114 &8
 MonoBehaviour:
@@ -408,9 +409,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.0662975, y: -4.440753, z: 33.59802}
+    m_Target: {x: 1.3348846, y: -3.6658688, z: 34.354084}
     speed: 2
-    m_Value: {x: -5.0662975, y: -4.440753, z: 33.59802}
+    m_Value: {x: 1.3348846, y: -3.6658688, z: 34.354084}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -457,13 +458,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2595376, y: -0.37537894, z: 0.110343024, w: 0.88292766}
+    m_Target: {x: 0.29268742, y: -0.21835743, z: 0.06883964, w: 0.9283976}
     speed: 2
-    m_Value: {x: 0.25953683, y: -0.3753778, z: 0.1103427, w: 0.88292503}
+    m_Value: {x: 0.2926864, y: -0.21835667, z: 0.0688394, w: 0.9283944}
   m_Size:
-    m_Target: 14.573399
+    m_Target: 12.463726
     speed: 2
-    m_Value: 14.573399
+    m_Value: 12.463726
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -644,20 +645,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/3DGamekitLite/Prefabs/Characters/Enemies/Chomper
+    - Assets/3DGamekitLite/Prefabs/Characters/Enemies/Spitter
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/3DGamekitLite/Prefabs/Characters/Enemies/Chomper
+  - Assets/3DGamekitLite/Prefabs/Characters/Enemies/Spitter
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\Explorer 3D Game Kit Lite
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 74}
-    m_SelectedIDs: c2460000
-    m_LastClickedID: 18114
+    scrollPos: {x: 0, y: 90}
+    m_SelectedIDs: c8460000
+    m_LastClickedID: 18120
     m_ExpandedIDs: 0000000098400000a0400000e2450000e8450000a2460000ba460000c046000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -711,9 +712,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: c4a20100
+    m_LastClickedInstanceID: 107204
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000052c1fcff447effff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -827,8 +828,8 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastInspectedObjectInstanceID: 107204
+  m_LastVerticalScrollValue: 180
   m_AssetGUID: 
   m_InstanceID: 0
   m_LockTracker:
