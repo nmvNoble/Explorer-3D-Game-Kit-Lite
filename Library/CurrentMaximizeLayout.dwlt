@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 104
+  controlID: 8449
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,8 +46,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 324
-    y: 100
+    x: 317
+    y: 19
     width: 628
     height: 341
   m_ViewDataDictionary: {fileID: 0}
@@ -84,7 +84,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 105
+  controlID: 8450
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 63
+  controlID: 8451
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,10 +219,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 144}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 32faffff22fbffffa0410000
+      m_ExpandedIDs: 8849ffff8c89ffff32faffff22fbffff104100006e41000094410000a041000000420000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -312,9 +312,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.84956, y: -0.053451777, z: 5.2235365}
+    m_Target: {x: 15.270674, y: -28.283655, z: 82.07308}
     speed: 2
-    m_Value: {x: -5.84956, y: -0.053451777, z: 5.2235365}
+    m_Value: {x: 15.270674, y: -28.283655, z: 82.07308}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -361,13 +361,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.15178879, y: -0.01630781, z: 0.0025049741, w: 0.9882809}
+    m_Target: {x: 0.2429138, y: 0.01600846, z: -0.0039956095, w: 0.96992636}
     speed: 2
-    m_Value: {x: 0.15178794, y: -0.016307719, z: 0.0025049602, w: 0.98827535}
+    m_Value: {x: 0.24290937, y: 0.016008168, z: -0.003995537, w: 0.96990865}
   m_Size:
-    m_Target: 6.507094
+    m_Target: 50.59003
     speed: 2
-    m_Value: 6.507094
+    m_Value: 50.59003
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -548,21 +548,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/3DGamekitLite/Prefabs/Building Blocks
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/3DGamekitLite/Prefabs/Building Blocks
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\Explorer 3D Game Kit Lite
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba400000
-    m_LastClickedID: 16570
-    m_ExpandedIDs: 000000009c40000000ca9a3b
+    scrollPos: {x: 0, y: 58}
+    m_SelectedIDs: d2590000
+    m_LastClickedID: 22994
+    m_ExpandedIDs: 000000009c400000b4400000c840000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -590,7 +590,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009c400000
+    m_ExpandedIDs: 000000009c40000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -615,8 +615,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: b6f9ffff
-    m_LastClickedInstanceID: -1610
+    m_SelectedInstanceIDs: 8849ffff
+    m_LastClickedInstanceID: -46712
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000052c1fcff447effff
     m_RenameOverlay:
@@ -642,7 +642,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 4}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 253
@@ -731,7 +731,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1610
+  m_LastInspectedObjectInstanceID: -46712
   m_LastVerticalScrollValue: 0
   m_AssetGUID: 
   m_InstanceID: 0
