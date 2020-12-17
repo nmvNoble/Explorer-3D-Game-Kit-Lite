@@ -12,7 +12,8 @@ public class EnemyToggle : MonoBehaviour
         {
             foreach (GameObject e in _enemies)
             {
-                e.SetActive(true);
+                if(!e.activeSelf)
+                    e.SetActive(true);
             }
         }
     }
