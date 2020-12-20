@@ -19,19 +19,22 @@ namespace Gamekit3D
 
         private void OnTriggerStay(Collider other)
         {
-            var d = other.GetComponent<Damageable>();
-            if (d == null)
-                return;
-
-            var msg = new Damageable.DamageMessage()
+            if(other.gameObject.layer != 23)
             {
-                amount = damageAmount,
-                damager = this,
-                direction = Vector3.up,
-                stopCamera = stopCamera
-            };
+                var d = other.GetComponent<Damageable>();
+                if (d == null)
+                    return;
 
-            d.ApplyDamage(msg);
+                var msg = new Damageable.DamageMessage()
+                {
+                    amount = damageAmount,
+                    damager = this,
+                    direction = Vector3.up,
+                    stopCamera = stopCamera
+                };
+
+                d.ApplyDamage(msg);
+            }
         }
     } 
 }
