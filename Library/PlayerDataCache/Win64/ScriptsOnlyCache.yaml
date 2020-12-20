@@ -85,9 +85,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    Unity.Polybrush.Editor.dll:
-    - UnityEditor.Polybrush.PrefabPalette
-    - UnityEditor.Polybrush.PrefabPaletteEditor
     Unity.Polybrush.dll:
     - UnityEngine.Polybrush.PolybrushMesh
     Unity.Postprocessing.Runtime.dll:
@@ -410,8 +407,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
-      Script: {instanceID: 0}
-    - Class: 238
       Script: {instanceID: 0}
     - Class: 241
       Script: {instanceID: 0}
@@ -2336,8 +2331,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 29ffc0600cd461afa17c6376741a1a11
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyToggle
   platform: 19
   scenePathNames:
   - Assets/Scenes/v0.1/Ellen's Box.unity
-  playerPath: D:/Unity Projects/Explorer 3D Game Kit Lite/Builds/Ellen's Box/Ellen's
+  playerPath: D:/Unity Projects/Explorer 3D Game Kit Lite/Builds/Ellen's Box v0.2.1/Ellen's
     Box.exe
